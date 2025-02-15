@@ -23,10 +23,10 @@ empresa.procesarTrabajador(trabajador4);
 let salida = document.getElementById("salida");
 
 salida.innerHTML = `
-<br> El trabajador ${trabajador1.nombre} tinene un salario es de: ${trabajador1.salario()}$
-<br> El trabajador ${trabajador2.nombre} tinene un salario es de: ${trabajador2.salario()}$
-<br> El trabajador ${trabajador3.nombre} tinene un salario es de: ${trabajador3.salario()}$
-<br> El trabajador ${trabajador4.nombre} tinene un salario es de: ${trabajador4.salario()}$
+<br> El trabajador ${trabajador1.nombre} tiene un salario es de: ${trabajador1.salario()}$
+<br> El trabajador ${trabajador2.nombre} tiene un salario es de: ${trabajador2.salario()}$
+<br> El trabajador ${trabajador3.nombre} tiene un salario es de: ${trabajador3.salario()}$
+<br> El trabajador ${trabajador4.nombre} tiene un salario es de: ${trabajador4.salario()}$
 
 <br><br> Monto total de nomina pagada: ${empresa.montoTotalPagado()}$
 `;
